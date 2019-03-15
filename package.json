@@ -1,0 +1,12 @@
+{
+  "name": "seshet",
+  "version": "0.1.0",
+  "description": "Seshet student management",
+  "scripts": {
+    "deploy:client:staging": "firebase deploy -P staging",
+    "deploy:client:production": "firebase deploy -P production",
+    "deploy:server": "git subtree push --prefix=server/ server master"
+  },
+  "author": "Kyle Coberly",
+  "license": "Private"
+}
